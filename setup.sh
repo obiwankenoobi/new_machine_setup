@@ -28,7 +28,7 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 
 # config zshrc
-curl https://gist.githubusercontent.com/obiwankenoobi/a9b446a670aa8781114a35046d1b7ac7/raw/435df0d2c7605b9dd49e9b4e34bd65c888c4e911/zshrc -o ~/.zshrc
+curl https://raw.githubusercontent.com/obiwankenoobi/new_machine_setup/master/zshrc -o ~/.zshrc
 
 #install sourcetree
 curl https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0_229.zip\?_ga\=2.249262471.1675521627.1572373013-16188579.1572373013 --output ~/Desktop/apps/Sourcetree_4.0_229.zip 
