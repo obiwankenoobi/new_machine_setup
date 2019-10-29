@@ -1,16 +1,16 @@
 # download Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-#download iTerm && vscode
-brew cask install iterm2 visual-studio-code
+# download iTerm && vscode && charles
+brew cask install iterm2 visual-studio-code charles
 
-#create directory for app
+# create directory for app
 mkdir ~/Desktop/apps
 
-#download zsh && node && git
+# download zsh && node && git
 brew install zsh node git
 
-#download oh-my-zsh
+# download oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # create zshrc file
@@ -30,8 +30,8 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 # config zshrc
 curl https://raw.githubusercontent.com/obiwankenoobi/new_machine_setup/master/zshrc -o ~/.zshrc
 
-#install sourcetree
+# download sourcetree
 curl https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0_229.zip\?_ga\=2.249262471.1675521627.1572373013-16188579.1572373013 --output ~/Desktop/apps/Sourcetree_4.0_229.zip 
 
-# install tinyscratchpad
+# download tinyscratchpad
 curl https://tinyscratchpad.com/TinyScratchpad-0.17.1.dmg --output ~/Desktop/apps/TinyScratchpad-0.17.1.dmg
