@@ -19,6 +19,10 @@ touch ~/.zshrc
 # install operator-mono-lig
 git clone https://github.com/obiwankenoobi/operator-mono-lig.git ~/Desktop/apps/operator-mono-lig
 
+# install dracula theme for iterm2
+
+git clone https://github.com/dracula/iterm.git ~/Desktop/apps/dracula
+
 # download and install spaceship theme
 sudo npm install -g spaceship-prompt
 
