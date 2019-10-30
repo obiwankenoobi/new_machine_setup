@@ -7,8 +7,8 @@ brew cask install iterm2 visual-studio-code charles
 # create directory for app
 mkdir ~/Desktop/apps
 
-# download zsh && node && git
-brew install zsh node git
+# download zsh && node && git && htop
+brew install zsh node git htop
 
 # download oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
