@@ -16,6 +16,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # create zshrc file
 touch ~/.zshrc
 
+# install operator-mono-lig
+git clone https://github.com/obiwankenoobi/operator-mono-lig.git ~/Desktop/apps/operator-mono-lig
 
 # download and install spaceship theme
 sudo npm install -g spaceship-prompt
