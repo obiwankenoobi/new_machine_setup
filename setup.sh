@@ -39,5 +39,8 @@ curl https://raw.githubusercontent.com/obiwankenoobi/new_machine_setup/master/zs
 # download sourcetree
 curl https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4.0_229.zip\?_ga\=2.249262471.1675521627.1572373013-16188579.1572373013 --output ~/Desktop/apps/Sourcetree_4.0_229.zip 
 
+# download discord
+curl https://discordapp.com/api/download?platform=osx --output ~/Desktop/apps/Discord.dmg
+
 # download tinyscratchpad
 curl https://tinyscratchpad.com/TinyScratchpad-0.17.1.dmg --output ~/Desktop/apps/TinyScratchpad-0.17.1.dmg
