@@ -42,5 +42,8 @@ curl https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_4
 # download discord
 curl https://discordapp.com/api/download?platform=osx --output ~/Desktop/apps/Discord.dmg
 
+# download whatsapp
+curl https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg --output ~/Desktop/apps/WhatsApp.dmg
+
 # download tinyscratchpad
 curl https://tinyscratchpad.com/TinyScratchpad-0.17.1.dmg --output ~/Desktop/apps/TinyScratchpad-0.17.1.dmg
