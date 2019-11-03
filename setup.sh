@@ -45,5 +45,8 @@ curl https://discordapp.com/api/download?platform=osx --output ~/Desktop/apps/Di
 # download whatsapp
 curl https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg --output ~/Desktop/apps/WhatsApp.dmg
 
+#download spotify
+curl https://www.spotify.com/download/mac/ --output ~/Desktop/apps/SpotifyInstaller.zip
+
 # download tinyscratchpad
 curl https://tinyscratchpad.com/TinyScratchpad-0.17.1.dmg --output ~/Desktop/apps/TinyScratchpad-0.17.1.dmg
