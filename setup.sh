@@ -50,3 +50,6 @@ curl https://www.spotify.com/download/mac/ --output ~/Desktop/apps/SpotifyInstal
 
 # download tinyscratchpad
 curl https://tinyscratchpad.com/TinyScratchpad-0.17.1.dmg --output ~/Desktop/apps/TinyScratchpad-0.17.1.dmg
+
+# download postman 
+curl https://dl.pstmn.io/download/latest/osx --output ~/Desktop/apps/postman.zip
