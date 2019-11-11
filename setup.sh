@@ -1,8 +1,8 @@
 # download Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# download iTerm && vscode && charles
-brew cask install iterm2 visual-studio-code charles
+# download iTerm && vscode && charles && react-native-debugger
+brew cask install iterm2 visual-studio-code charles react-native-debugger
 
 # create directory for app
 mkdir ~/Desktop/apps
